@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#8A2BE2"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Name" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_text_view"
+        android:background="#FFFFFF"
+        android:padding="8dp">
+        <TextView
+            android:id="@+id/launch_price_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Launch Price:" />
+        <TextView
+            android:id="@+id/launch_price_value_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/launch_price_text_view"
+
+            android:text="XXXX" />
+        <TextView
+            android:id="@+id/launch_date_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/launch_price_text_view"
+            android:text="Launch Date:" />
+        <TextView
+            android:id="@+id/launch_date_value_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/launch_price_value_text_view"
+            android:layout_toRightOf="@id/launch_date_text_view"
+
+            android:text="XXXX" />
+        <TextView
+            android:id="@+id/camera_score_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/launch_date_text_view"
+            android:text="Camera Score:" />
+        <TextView
+            android:id="@+id/camera_score_value_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/launch_date_value_text_view"
+            android:layout_toRightOf="@id/camera_score_text_view"
+
+            android:text="XXXX" />
+    </RelativeLayout>
+</RelativeLayout>
