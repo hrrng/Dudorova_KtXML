@@ -6,8 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.creyc.test.PhonesData
 import kotlinx.android.synthetic.main.fragment_one.view.*
+import com.dudorova.myfirstapp.*
 
 
 class FragmentOne : Fragment() {
